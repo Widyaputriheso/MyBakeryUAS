@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "65363340906",
+    "firebase_url": "https://makanancafe-2c240.firebaseio.com",
+    "project_id": "makanancafe-2c240",
+    "storage_bucket": "makanancafe-2c240.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65363340906:android:e351a8ec29795096252413",
+        "android_client_info": {
+          "package_name": "com.example.makanancafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65363340906-nm8n7va3b2i7n1s1uebb9durh15l5fqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.makanancafe",
+            "certificate_hash": "374e089475e23cc25818fd98ca495de6d8f1ba33"
+          }
+        },
+        {
+          "client_id": "65363340906-55mku6rnca10jt3d680v19ld66a21mnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdgyQBkqn5E-dIha5yWgj_Dluptu_2ca0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65363340906-55mku6rnca10jt3d680v19ld66a21mnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
