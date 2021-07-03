@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Cake" type="id" />
+    <item name="Chiffon" type="id" />
+    <item name="Donut" type="id" />
+    <item name="Biscuit" type="id" />
+    <item name="Cookies" type="id" />
+    <item name="Brownies" type="id" />
+    <item name="Puding" type="id" />
+    <item name="quantitycake" type="id" />
+    <item name="quantitychiffon" type="id" />
+    <item name="quantitydonut" type="id" />
+    <item name="quantitybiscuit" type="id" />
+    <item name="quantityrcookies" type="id" />
+    <item name="quantitybrownies" type="id" />
+    <item name="quantitypuding" type="id" />
+</resources>
