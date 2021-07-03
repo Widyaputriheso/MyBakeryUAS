@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/priwinkle"
+    android:background="@color/colorAccent"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
@@ -15,7 +15,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="17dp"
-        android:text="Nama Pelanggan"
+        android:text="My Bakery"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="394dp" />
 
@@ -36,47 +36,31 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/pemesan"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
         android:layout_toStartOf="@+id/pemesan"
+        android:layout_toLeftOf="@+id/pemesan"
         android:text="Keluar"
         tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="388dp"
-        android:layout_toLeftOf="@+id/pemesan" />
+        tools:layout_editor_absoluteY="388dp" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView3"
         android:layout_width="401dp"
         android:layout_height="356dp"
         android:layout_below="@+id/pemesan"
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="97dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="24dp"
         android:layout_marginBottom="216dp"
         android:background="@android:drawable/screen_background_light_transparent"
-        android:src="@drawable/selamat"
-        app:srcCompat="@drawable/selamat"
+        android:src="@drawable/bakry"
+        app:srcCompat="@drawable/bakry"
         tools:layout_editor_absoluteX="7dp"
         tools:layout_editor_absoluteY="8dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="match_parent"
-        android:layout_height="92dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginBottom="216dp"
-        android:src="@drawable/celosia"
-        app:srcCompat="@drawable/celosia"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="151dp" />
-
 
 
 </RelativeLayout>

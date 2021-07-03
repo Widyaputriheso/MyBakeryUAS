@@ -14,30 +14,30 @@ public class menu extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
         setContentView (R.layout.activity_menu);
-        final CheckBox burger = (CheckBox) findViewById (R.id.burger);
-        final CheckBox Tomyum = (CheckBox) findViewById (R.id.Tomyum);
-        final CheckBox Rice = (CheckBox) findViewById (R.id.Rice);
-        final CheckBox tea = (CheckBox) findViewById (R.id.tea);
-        final CheckBox lemon = (CheckBox) findViewById (R.id.lemon);
-        final CheckBox milkshake = (CheckBox) findViewById (R.id.milkshake);
-        final CheckBox juice = (CheckBox) findViewById (R.id.juice);
+        final CheckBox cake = (CheckBox) findViewById (R.id.Cake);
+        final CheckBox chiffon = (CheckBox) findViewById (R.id.Chiffon);
+        final CheckBox donut = (CheckBox) findViewById (R.id.Donut);
+        final CheckBox biscuit = (CheckBox) findViewById (R.id.Biscuit);
+        final CheckBox cookies = (CheckBox) findViewById (R.id.Cookies);
+        final CheckBox brownies = (CheckBox) findViewById (R.id.Brownies);
+        final CheckBox puding = (CheckBox) findViewById (R.id.Puding);
 
-        final EditText jml_burger = (EditText) findViewById (R.id.quantityburger);
-        final EditText jml_Tomyum = (EditText) findViewById (R.id.quantityTomyum);
-        final EditText jml_Rice = (EditText) findViewById (R.id.quantityrice);
-        final EditText jml_tea =(EditText) findViewById (R.id.quantitytea);
-        final EditText jml_lemon=(EditText) findViewById (R.id.quantityrlemon);
-        final EditText jml_milkshake=(EditText) findViewById (R.id.quantitymilkshake);
-        final EditText jml_juice=(EditText) findViewById (R.id.quantityjuice);
+        final EditText jml_Cake= (EditText) findViewById (R.id.quantitycake);
+        final EditText jml_Chiffon= (EditText) findViewById (R.id.quantitychiffon);
+        final EditText jml_Donut= (EditText) findViewById (R.id.quantitydonut);
+        final EditText jml_Biscuit=(EditText) findViewById (R.id.quantitybiscuit);
+        final EditText jml_Cookies=(EditText) findViewById (R.id.quantityrcookies);
+        final EditText jml_Brownies=(EditText) findViewById (R.id.quantitybrownies);
+        final EditText jml_Puding=(EditText) findViewById (R.id.quantitypuding);
 
 
-        final int harga_burger = 15000;
-        final int harga_Tomyum =  17000;
-        final int harga_Rice = 12000;
-        final int harga_tea = 7000;
-        final int harga_lemon = 12000;
-        final int harga_milkshake = 9000;
-        final int harga_juice = 8000;
+        final int harga_cake = 15000;
+        final int harga_chiffon =  17000;
+        final int harga_donut = 7000;
+        final int harga_biscuit = 10000;
+        final int harga_cookies = 12000;
+        final int harga_brownies = 15000;
+        final int harga_puding = 8000;
 
 
         Button pesan = (Button)findViewById(R.id.button3);
@@ -47,53 +47,52 @@ public class menu extends AppCompatActivity {
             public void onClick (View view){
                 String summOrder = "";
                 int totOrder = 0 ;
-                if (burger.isChecked()) {
-                    String txt = "- Burger";
-                    int jml =Integer. parseInt (String.valueOf(jml_burger.getText()));
-                    int calc = jml*harga_burger;
+                if (cake.isChecked()) {
+                    String txt = "- Cake";
+                    int jml =Integer. parseInt (String.valueOf(jml_Cake.getText()));
+                    int calc = jml*harga_cake;
                     summOrder += txt+" "+jml+"\n";
                     totOrder += calc;
                 }
-                if (Tomyum.isChecked()) {
-                    String txt = "- Tomyum";
-                    int jml =Integer. parseInt (String.valueOf(jml_Tomyum.getText()));
-                    int calc = jml*harga_Tomyum;
+                if (chiffon.isChecked()) {
+                    String txt = "- Chiffon";
+                    int jml =Integer. parseInt (String.valueOf(jml_Chiffon.getText()));
+                    int calc = jml*harga_chiffon;
                     summOrder += txt+" "+jml+"\n";
                     totOrder += calc;
                 }
-                if (Rice.isChecked()) {
-                    String txt = "- Rice Bowl";
-                    int jml =Integer. parseInt (String.valueOf(jml_Rice.getText()));
-                    int calc = jml*harga_Rice;
+                if (donut.isChecked()) {
+                    String txt = "- Donut ";
+                    int jml =Integer. parseInt (String.valueOf(jml_Donut.getText()));
+                    int calc = jml*harga_donut;
                     summOrder += txt+" "+jml+"\n";
                     totOrder += calc;
                 }
-                if (tea.isChecked()) {
-                    String txt = "- Ice Tea";
-                    int jml = Integer.parseInt(String.valueOf(jml_tea.getText()));
-                    int calc = jml * harga_tea;
+                if (biscuit.isChecked()) {
+                    String txt = "- Biscuit";
+                    int jml =Integer. parseInt (String.valueOf(jml_Biscuit.getText()));
+                    int calc = jml*harga_biscuit;
+                    summOrder += txt+" "+jml+"\n";
+                    totOrder += calc;
+                }
+                if (cookies.isChecked()) {
+                    String txt = "- Cookies";
+                    int jml = Integer.parseInt(String.valueOf(jml_Cookies.getText()));
+                    int calc = jml * harga_cookies;
                     summOrder += txt + " " + jml + "\n";
                     totOrder += calc;
                 }
-                if (lemon.isChecked()) {
-                    String txt = "- Lemon Tea";
-                    int jml =Integer. parseInt (String.valueOf(jml_lemon.getText()));
-                    int calc = jml*harga_lemon;
-                    summOrder += txt+" "+jml+"\n";
-                    totOrder += calc;
-                }
-                if (milkshake.isChecked()) {
-                    String txt = "- Milkshake";
-                    int jml = Integer.parseInt(String.valueOf(jml_milkshake.getText()));
-                    int calc = jml * harga_milkshake;
+                if (brownies.isChecked()) {
+                    String txt = "- Brownies";
+                    int jml = Integer.parseInt(String.valueOf(jml_Brownies.getText()));
+                    int calc = jml * harga_brownies;
                     summOrder += txt + " " + jml + "\n";
                     totOrder += calc;
                 }
-
-                if (juice.isChecked()) {
-                    String txt = "- Juice";
-                    int jml = Integer.parseInt(String.valueOf(jml_juice.getText()));
-                    int calc = jml * harga_juice;
+                if (puding.isChecked()) {
+                    String txt = "- Puding";
+                    int jml = Integer.parseInt(String.valueOf(jml_Puding.getText()));
+                    int calc = jml * harga_puding;
                     summOrder += txt + " " + jml + "\n";
                     totOrder += calc;
                 }
